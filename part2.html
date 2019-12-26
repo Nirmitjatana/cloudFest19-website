@@ -1,0 +1,1000 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The most flexible and intelligent litigation, research and file management system for lawyers.">
+    
+
+    <!-- For Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="LegalMind - Powering Lawyers and Law Students" />
+    <meta property="og:description" content="The most flexible and intelligent litigation, research and file management system for lawyers." />
+    <!-- <meta property="og:image" content="images/fb-og-image" /> Facebook poster to be added-->
+    <meta property="og:url" content="https://www.legalmind.tech/" />
+    <meta property="og:site_name" content="LegalMind" />
+
+    <!-- For Twitter -->
+    <meta name="twitter:card" content="website">
+    <meta name="twitter:site" content="LegalMind">
+    <meta name="twitter:title" content="LegalMind - Powering Lawyers and Law Students">
+    <meta name="twitter:description" content="The most flexible and intelligent litigation, research and file management system for lawyers.">
+    <meta name="twitter:creator" content="@Arpit_Kotecha">
+    <meta name="twitter:image" content="#">
+
+    <meta itemprop="name" content="LegalMind">
+    <meta itemprop="description" content="The most flexible and intelligent litigation, research and file management system for lawyers.">
+    <meta itemprop="image" content="#">
+
+
+    <link rel="canonical" href="https://www.legalmind.tech/" />
+
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani|Roboto" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="assets/images/favicons.ico" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>CloudFest 19'</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        ::placeholder {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .row {
+            margin-left: 0;
+            margin-right: 0
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        #first {
+            background: white;
+            overflow-X: initial;
+        }
+
+        .signUp-btn {
+            padding: 10px 18px 10px 18px;
+            border-radius: 5px;
+            background-color:white;
+			border-color:#1476ff;
+			color:grey
+            color: white;
+            outline: none;
+            ;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .signUp-btn:hover {
+            background-color: #1476ff;
+            color: black;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition: all 0.5s ease;
+            transition-property: background-color, color, box-shadow;
+        }
+		.signUp-btn1 {
+            padding: 10px 18px 10px 18px;
+            border-radius: 5px;
+            background-color:white;
+			border-color:#1476ff;
+			color:grey
+            color: white;
+            outline: none;
+            ;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .signUp-btn1:hover {
+            background-color: #1476ff;
+            color: black;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition: all 0.5s ease;
+            transition-property: background-color, color, box-shadow;
+        }
+		.signUp-btn2 {
+            padding: 10px 18px 10px 18px;
+            border-radius: 5px;
+            background-color:white;
+			border-color:#1476ff;
+			color:grey
+            color: white;
+            outline: none;
+            ;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .signUp-btn2:hover {
+            background-color: grey;
+            color: black;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition: all 0.5s ease;
+            transition-property: background-color, color, box-shadow;
+        }
+		.signUp-btn3 {
+            padding: 10px 18px 10px 18px;
+            border-radius: 5px;
+            background-color:white;
+			border-color:#1476ff;
+			color:grey
+            color: white;
+            outline: none;
+            ;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .signUp-btn3:hover {
+            background-color: green;
+            color: black;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition: all 0.5s ease;
+            transition-property: background-color, color, box-shadow;
+        }
+		.signUp-btn4 {
+            padding: 10px 18px 10px 18px;
+            border-radius: 5px;
+            background-color:white;
+			border-color:#1476ff;
+			color:grey
+            color: white;
+            outline: none;
+            ;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .signUp-btn4:hover {
+            background-color: yellow;
+            color: black;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition: all 0.5s ease;
+            transition-property: background-color, color, box-shadow;
+        }
+		.signUp-btn5 {
+            padding: 10px 18px 10px 18px;
+            border-radius: 5px;
+            background-color:white;
+			border-color:#1476ff;
+			color:grey
+            color: white;
+            outline: none;
+            ;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .signUp-btn5:hover {
+            background-color: red;
+            color: black;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition: all 0.5s ease;
+            transition-property: background-color, color, box-shadow;
+        }
+		.box-area{
+		position:absolute
+		top: 0;
+		left: 0;
+		width:100%;
+		height:100%;
+		overflow:hidden;
+		}
+		.box-area li{
+		position:absolute;
+		display:block;
+		width:25px;
+		height:25px;
+		background:rgba(0,0,255,0.1);
+		animation:animate 20s linear infinite;
+		bottom:-150px;
+		}.box-area li:nth-child(1){
+		left:88%;
+		display:block;
+		width:80px;
+		height:80px;
+		background:rgba(255,0,0,0.1);
+		animation-delay:0s;
+		bottom:-100px;
+		}.box-area li:nth-child(2){
+		left:12%;
+		display:block;
+		width:25px;
+		height:25px;
+		background:rgba(0,255,0,0.1);
+		animation-delay:1.5s;
+		bottom:-15px;
+		}.box-area li:nth-child(3){
+		left:55%;
+		display:block;
+		width:10px;
+		height:10px;
+		background:rgba(250,0,0,0.2);
+		animation-delay:0.5s;
+		bottom:-150px;
+		}.box-area li:nth-child(4){
+		left:35%;
+		display:block;
+		width:50px;
+		height:50px;
+		background:rgba();
+		animation-delay:3s;
+		bottom:-150px;
+		}.box-area li:nth-child(5){
+		left:18%;
+		display:block;
+		width:40px;
+		height:40px;
+		background:rgba(250, 237, 52,0.2);
+		animation:animate 20s linear infinite;
+		bottom:-150px;
+		}.box-area li:nth-child(6){
+		left:5%;
+		display:block;
+		width:50px;
+		height:50px;
+		background:rgba(255,0,0,0.1);
+		animation-delay:2s;
+		bottom:-150px;
+		}.box-area li:nth-child(7){
+		left:45%;
+		display:block;
+		width:20px;
+		height:20px;
+		background:rgba(250, 237, 52,0.2);
+		animation:animate 20s linear infinite;
+		bottom:-150px;
+		}
+		@keyframes animate{
+		0%{
+			transform: translateY(0) rotate(0deg);
+			opacity: 1;
+			}
+		100%{
+			transform: translateY(-800px) rotate(360deg);
+			opacity: 0;
+			}
+		
+			}
+        * {
+            box-sizing: border-box;
+        }
+
+        .imageResize {
+            height: 350px;
+            width: auto;
+        }
+
+        .textBox {
+            text-align: left;
+            padding: 8vh 8vw;
+        }
+
+        .line {
+            border-top: 1px solid #007bff;
+            width: 50px;
+        }
+
+        /*to change the chrome autofill default yellow color to white color*/
+
+        input:-webkit-autofill,
+        input:-webkit-autofill:hover,
+        input:-webkit-autofill:focus,
+        input:-webkit-autofill:active {
+            -webkit-box-shadow: 0 0 0 30px white inset;
+        }
+
+        /*to remove outline when user click on input box*/
+
+        input:focus,
+        select:focus,
+        textarea:focus,
+        button:focus {
+            outline: none;
+        }
+
+        button,
+        button:focus {
+            outline: none;
+            border: 0;
+            cursor: pointer;
+
+        }
+
+        .shadow {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        #first {
+            background: url('assets/images/Asset 3@1x.png') center center;
+            background-size: cover;
+            width: auto
+            
+            
+        }
+
+        /* for bigger screens */
+
+        @media (min-width : 1200px) {
+            #first {
+                height: 114vh;
+            }
+
+            #contentGif {
+                margin-top: 2vh;
+                position: absolute-right;
+                height: auto
+            }
+
+            #gif {
+                height: 500px;
+                width: 300px;
+            }
+
+            h1 {
+                font-size: 40px
+            }
+
+            #trapz {
+                position: absolute;
+                top: 105vh
+            }
+
+            #trapz-head {
+                font-size: 40px
+            }
+
+            .containerPadding {
+                padding: 6vh 10vw 6vh 10vw;
+                text-align: center;
+            }
+
+            .spl {
+                position: absolute;
+                left: 90.7vw
+            }
+
+            .spl2 {
+                position: absolute;
+                left: 81.1vw
+            }
+			.spl3 {
+                position: absolute;
+                left: 75vw
+            }
+			.spl4 {
+                position: absolute;
+                left: 68.8vw
+            }
+			.spl5 {
+                position: absolute;
+                left: 63.7vw
+            }
+
+        }
+
+        /* for smaller screens */
+
+        @media (max-width : 1200px) {
+            #first {
+                height: 135vh;
+            }
+
+            li {
+                padding-top: 10px;
+                padding-bottom: 10px
+            }
+
+            #contentGif {
+                position: absolute-right;
+                margin-top: 15vh;
+                height: auto
+            }
+
+            #gif {
+                height: 240px;
+                width: auto;
+            }
+
+            h1 {
+                font-size: 30px
+            }
+
+            #trapz {
+                position: absolute;
+                top: 120vh;
+
+            }
+
+            #trapz-head {
+                font-size: 30px
+            }
+
+            .containerPadding {
+                padding: 0 10vw 4vh 10vw;
+                text-align: center;
+            }
+
+            .textBox {
+                text-align: left;
+                padding: 4vh 8vw;
+            }
+
+            #second {
+                margin-top: 10vh;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div id="first">
+        <nav class="navbar navbar-expand-xl navbar-light fixed-top"
+        style="background-color: white;">
+        <div id="legalMind"
+        style="color:white;">
+            <div style="height : auto ; width : auto;  display: inline-block;">
+                <img src="logo.png"
+                style="height: 80px; width : 300px; vertical-align: middle; line-height: 200px">
+            </div>
+    </div>
+	<button id="drop" class="navbar-toggler" type="button" data-toggle="collapse"
+    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left : 10px">
+    <ul class="navbar-nav mr-auto" style="font-size: 0.8em;">
+	
+				<li class="nav-item">
+                        <a href="#" style="text-decoration : none;border-color:blue">
+                            <button class="signUp-btn4 spl3"
+                            type="button" style="font-size: 1em;">Speakers
+                        </button>
+                    </a>
+                </li>
+				<li class="nav-item" style="padding-right: px;">
+                        <a href="#" style="text-decoration : none;">
+                            <button class="signUp-btn1 spl4"
+                            type="button" style="font-size: 1em; border-color:blue">Sponsers
+                        </button>
+                    </a>
+                </li>
+				<li class="nav-item" style="padding-right: 2px;">
+                        <a href="#" style="text-decoration : none;">
+                            <button class="signUp-btn5 spl5"
+                            type="button" style="font-size: 1em;">Home
+                        </button>
+                    </a>
+                </li>
+                    <li class="nav-item" style="padding-right: 2px;">
+                        <a href="#" style="text-decoration : none;">
+                            <button class="signUp-btn3 spl2"
+                            type="button" style="font-size: 1em;">Technologies used
+                        </button>
+                    </a>
+                </li>
+				
+		
+                <li class="nav-item" style="padding-right: 200px;">
+                    <a href="#getNotified" style="text-decoration : none;">
+                        <button class="signUp-btn2 spl"
+                        type="button" style="font-size: 1em;">Contact
+                    </button>
+                </a>
+            </li> 
+                    
+                </ul>
+            </div>
+        </nav>
+
+        
+<ul class="box-area">
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+     <div class="row" id="contentGif" style="background-image:url(back.png)">
+	 
+            <div class="col-lg-6 col-xs-1
+            2" style="padding: 5vh 5vw 5vh 15vw; color : white">
+			
+			
+                <div style=" margin-top : 400px">
+                    <p style="font-family: 'Roboto', sans-serif;">
+                        
+						<button type="button" style="font-size: 2em; padding:10px 70px 10px 70px; border-radius:10px; color:white; background-color:#349efa">Register
+                    </button>
+                    </p>
+                </div>
+            </div>
+			
+            <div id="gif-container" class="col-lg-6 col-xs-12" style="text-align: center; padding-top : 140px;">
+                <img id="gif" alt="laptop gif" class="img-fluid" src="ani.png">
+            </div>
+			
+        </div>
+		</ul>
+        <div class="row">
+            <div id="trapz" style=" text-align: center; left : 50%; transform: translateX(-50%)">
+                <p id="trapz-head" style="font-family: 'Rajdhani', sans-serif;"></p>
+            </div>
+        </div>
+
+    </div>
+        <div class="row">
+            <div id="trapz" style=" text-align: center; left : 50%; transform: translateX(-50%)">
+                <p id="trapz-head" style="font-family: 'Rajdhani', sans-serif;"></p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- // second content -->
+
+
+    <div class="container-fluid" id="second">
+
+        <!--First Part-->
+        <div class="row containerPadding">
+            <div class="col-xs-12 col-lg-6 boxIdentifier">
+                <img class="img-fluid imageResize" src="speaker2.jpg" alt="Legal Search" style="border-radius:25px;">
+            </div>
+            <div class="col-xs-12 col-lg-6 boxIdentifier textBox">
+                <p style="font-size: 2.1em; font-family: 'Rajdhani', sans-serif; font-weight: bold">
+                    NIRMIT JATANA
+                </p>
+                <p class="line"></p>
+                <p style="color : #777777; font-family: 'Roboto', sans-serif; font-size: 1.2rem; margin-bottom: 25px">
+                    VIT Vellore undergrad with over 6 start-ups Founder G4it experienced Web developer with design skills. Author of GETGoing easier.Motivational speaker curruntly advisor for GOOGLE                    
+                    
+                </p>
+                <!-- <button  class="btn btn-default lrn-more">
+                        <b>LEARN MORE</b>
+                    </button> -->
+                </div>
+            </div>
+
+
+            <!--Second Part INVERT-->
+            <div class="row containerPadding">
+                <div class="col-xs-12 col-lg-6 order-lg-2 boxIdentifier">
+                    <img class="img-fluid imageResize" src="speaker2.jpg" alt="Legal FS" style="border-radius:25px;">
+                </div>
+                <div class="col-xs-12 col-lg-6 order-lg-1 boxIdentifier textBox">
+
+                    <p style="font-size: 2.1em; font-family: 'Rajdhani', sans-serif; font-weight: bold">
+                        NIRMIT JATANA
+                    </p>
+                    <p class="line"></p>
+                    <p style="color : #777777; font-family: 'Roboto', sans-serif; font-size: 1.2rem; margin-bottom: 25px">
+                        VIT Vellore undergrad with over 6 start-ups Founder G4it experienced Web developer with design skills. Author of GETGoing easier.Motivational speaker curruntly advisor for GOOGLE                    
+                    
+                    </p>
+                <!-- <button  class="btn btn-default lrn-more">
+                        <b>LEARN MORE</b>
+                    </button> -->
+                </div>
+            </div>
+
+            <!--Third Part -->
+            <div class="row containerPadding">
+                <div class="col-xs-12 col-lg-6 boxIdentifier">
+                    <img class="img-fluid imageResize" src="speaker.jpg" alt="Brief Analyser" style="border-radius:25px;"	>
+                </div>
+                <div class="col-xs-12 col-lg-6 boxIdentifier textBox">
+                    <p style="font-size: 2.1em; font-family: 'Rajdhani', sans-serif; font-weight: bold">
+                        NIRMIT JATANA
+                    </p>
+                    <p class="line"></p>
+                    <p style="color : #777777; font-family: 'Roboto', sans-serif; font-size: 1.2rem; margin-bottom: 25px">
+                        VIT Vellore undergrad with over 6 start-ups Founder G4it experienced Web developer with design skills. Author of GETGoing easier.Motivational speaker curruntly advisor for GOOGLE                    
+                    
+                    </p>
+                <!-- <button  class="btn btn-default lrn-more">
+                        <b>LEARN MORE</b>
+                    </button> -->
+                </div>
+            </div>
+
+            <!--Fourth Part INVERT-->
+            <div class="row containerPadding">
+                <div class="col-xs-12 col-lg-6 order-lg-2 boxIdentifier">
+                    <img class="img-fluid imageResize" src="speaker.jpg"
+                    alt="Judgement Analysis" style="border-radius:25px;">
+                </div>
+                <div class="col-xs-12 col-lg-6 order-lg-1 boxIdentifier textBox">
+                    <p style="font-size: 2.1em; font-family: 'Rajdhani', sans-serif; font-weight: bold">
+                        NIRMIT JATANA
+                    </p>
+                    <p class="line"></p>
+                    <p style="color : #777777; font-family: 'Roboto', sans-serif; font-size: 1.2rem; margin-bottom: 25px">
+                        VIT Vellore undergrad with over 6 start-ups Founder G4it experienced Web developer with design skills. Author of GETGoing easier.Motivational speaker curruntly advisor for GOOGLE                                        </p>
+                <!-- <button  class="btn btn-default lrn-more">
+                        <b>LEARN MORE</b>
+                    </button> -->
+                </div>
+            </div>
+
+            <!-- Pricing Content Heading -->
+        <!-- <div class="row containerPadding " style="padding-top : 8vh">
+                <div style="text-align: center;"  class="col-12">
+                    <h1 style="font-family: 'Rajdhani', sans-serif">
+                        <b>
+                            Amazing Features That Make It Awesome!
+                        </b>
+                    </h1>
+                    <p style="color : #777777; font-family: 'Roboto', sans-serif; font-weight: bold; font-size: 15px; padding-left: 8vw; padding-right : 8vw; margin-top: 25px">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                    </p>
+                </div>
+            </div> -->
+
+            <!--Price content divisions-->
+
+            <!-- <div id="price" class="row containerPadding"> -->
+
+                <!--First price div-->
+
+        <!-- <div class="col-xs-12 col-lg-4" style="text-align: center; margin: 20px 0 20px 0; font-family: 'Rajdhani', sans-serif;">
+                    <div style="border-radius : 8px; border : 2px solid #eeeeee" id="price-box1">
+                        <div style="width: 100%; height: 90px; border : 1px solid white; border-top-left-radius : 5px;border-top-right-radius : 5px; border-bottom-color: #eeeeee" id="price-box-header1" >
+                            <p style="line-height: 90px; font-size: 22px; font-family: 'Roboto', sans-serif">Basic</p>
+                        </div>
+                        <div style="width: 100%; height: auto;">
+                            <div style="width: 100%; height: 40%; padding-top : 40px; padding-bottom: 40px; font-size: 20px;" >
+                                <p>2.5 GB Space</p>
+                                <p>Secure Online Transfer</p>
+                                <p>Unlimited Styles</p>
+                                <p>Customer Service</p>
+                            </div>
+                            <div style="width: 100%; height: 250px;" >
+                                <div style="padding: 20px; margin: 25px 2px 25px 2px; border-radius: 5px; background-color: #fcf8ff" id="price-box-footer1">
+                                    <p style="font-size: 60px;font-family: 'Roboto', sans-serif " id="price-color1"><span style="vertical-align: top; font-size: 30px;">$</span><span style="line-height: 90px">39</span></p>
+
+                                    <button  class="btn btn-primary btn-price">Get Started</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!--Second price div -->
+
+        <!-- <div class="col-xs-12 col-lg-4" style="text-align: center; margin: 20px 0 20px 0; font-family: 'Rajdhani', sans-serif;">
+                    <div style="border-radius : 8px; border : 2px solid #eeeeee" id="price-box2">
+                        <div style="width: 100%; height: 90px; border : 1px solid white; border-top-left-radius : 5px;border-top-right-radius : 5px; border-bottom-color: #eeeeee" id="price-box-header2" >
+                            <p style="line-height: 90px; font-size: 22px; font-family: 'Roboto', sans-serif">Basic</p>
+                        </div>
+                        <div style="width: 100%; height: auto;">
+                            <div style="width: 100%; height: 40%; padding-top : 40px; padding-bottom: 40px; font-size: 20px;" >
+                                <p>2.5 GB Space</p>
+                                <p>Secure Online Transfer</p>
+                                <p>Unlimited Styles</p>
+                                <p>Customer Service</p>
+                            </div>
+                            <div style="width: 100%; height: 250px;" >
+                                <div style="padding: 20px; margin: 25px 2px 25px 2px; border-radius: 5px; background-color: #fcf8ff" id="price-box-footer2">
+                                    <p style="font-size: 60px;font-family: 'Roboto', sans-serif " id="price-color2"><span style="vertical-align: top; font-size: 30px;">$</span><span style="line-height: 90px">39</span></p>
+
+                                    <button  class="btn btn-primary btn-price">Get Started</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!--Third price div -->
+
+        <!-- <div class="col-xs-12 col-lg-4" style="text-align: center; margin: 20px 0 20px 0; font-family: 'Rajdhani', sans-serif;">
+                    <div style="border-radius : 8px; border : 2px solid #eeeeee"  id="price-box3">
+                        <div style="width: 100%; height: 90px; border : 1px solid white; border-top-left-radius : 5px;border-top-right-radius : 5px; border-bottom-color: #eeeeee" id="price-box-header3" >
+                            <p style="line-height: 90px; font-size: 22px; font-family: 'Roboto', sans-serif">Basic</p>
+                        </div>
+                        <div style="width: 100%; height: auto;">
+                            <div style="width: 100%; height: 40%; padding-top : 40px; padding-bottom: 40px; font-size: 20px;" >
+                                <p>2.5 GB Space</p>
+                                <p>Secure Online Transfer</p>
+                                <p>Unlimited Styles</p>
+                                <p>Customer Service</p>
+                            </div>
+                            <div style="width: 100%; height: 250px;" >
+                                <div style="padding: 20px; margin: 25px 2px 25px 2px; border-radius: 5px; background-color: #fcf8ff" id="price-box-footer3">
+                                    <p style="font-size: 60px;font-family: 'Roboto', sans-serif " id="price-color3"><span style="vertical-align: top; font-size: 30px;">$</span><span style="line-height: 90px">39</span></p>
+
+                                    <button  class="btn btn-primary btn-price">Get Started</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            -->
+            <!-- </div> -->
+        </div>
+
+
+    <!-- <div class="container-fluid" id="getNotified" style="padding-top : 100px">
+        <div class="row" style="margin-bottom : 100px;">
+            <div class="col-xs-3 col-lg-4"></div>
+            <div class="col-xs-6 col-lg-4 shadow" style=" height : auto; padding: 30px 10px 40px 10px; border-radius : 20px">
+                <div style="text-align : center; margin-bottom: 30px">
+                    <h1 style="font-family: 'Rajdhani', sans-serif;">Request A Demo</h1>
+                </div>
+                <div style="text-align : center">
+
+                    <input class="shadow" type="text" id="name"
+                        style="width : 70%; border-radius : 40px; margin-bottom: 10px; text-align: center; padding: 10px; border: none; font-family: 'Roboto', sans-serif;"
+                        name="name" placeholder="Name">
+
+                    <input type="email" class="shadow" id="email"
+                        style="width : 70%; border-radius : 40px; margin-bottom : 20px; text-align: center; padding : 10px; border: none; font-family: 'Roboto', sans-serif;"
+                        name="email" placeholder="Email">
+
+                    <div style="text-align : center">
+                        <button id="saveDataBtn" class="shadow" onclick="saveData()"
+                            style="width : 70%; border-radius : 40px; padding: 10px; background-color: rgb(27,29,246); color: white">Submit</button>
+                    </div>
+
+                    <p style="margin-top : 20px; color : grey; font-family: 'Roboto', sans-serif;">And don't worry, we hate spam too!</p>
+
+                </div>
+            </div>
+            <div class="col-xs-3 col-lg-4"></div>
+        </div>
+    </div> -->
+
+    <!-- Old Footer -->
+
+    <!-- <div class="container-fluid">
+        <div class="row">
+            <div class="col-12" style="margin-bottom : 50px">
+                <h1 style="text-align : center; font-family: 'Rajdhani', sans-serif;">
+                    Contact Us
+                </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="row" style="font-family: 'Roboto', sans-serif;">
+                    <div class="col-xs-12 col-lg-4" style="padding : 20px">
+                        <i class="fas fa-map-marker-alt" style="width : 20px; height : auto"></i>
+                        <a target="_blank" rel="external"
+                            href="https://www.google.com/maps/place/Technology+Tower+-+TT/@12.9710391,79.157214,17z/data=!4m8!1m2!2m1!1sTT,+VIT!3m4!1s0x3bad47a1c31ff897:0x25b8753e051621bd!8m2!3d12.9707838!4d79.1595271"><br>
+                            <span>TT-002D Technology Tower</span>
+                            <br>
+                            <span>Vellore Institute of Technology</span>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-lg-4" style="padding : 20px">
+                        <i class="fas fa-envelope"></i>
+                        <br>
+                        <a target="_blank" href=" mailto:contact@legalmind.xyz">contact@legalmind.xyz</span>
+                    </div>
+                    <div class="col-xs-12 col-lg-4" style="padding : 20px">
+                        <i class="fab fa-linkedin"></i>
+                        <br>
+                        <span><a target="_blank" rel="external dofollow" href="https://www.linkedin.com/company/legalmind">LegalMind</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row" style="padding-top: 20px; font-family: 'Roboto', sans-serif;">
+            <p style=" margin-left: 50%; transform: translateX(-50%)">
+                <i class="far fa-copyright" style="padding-top : 4px; "></i><span style="padding-left : 5px; font-size: 13px">FindMind Analytics PVT LTD </span>
+            </p>
+        </div>
+    </div> -->
+
+
+    <!-- New Footer  -->
+    <div class="container-fluid" id="getNotified"
+    style="background-color :#3486fa ;color: white;padding-top:8vh;font-size : 18px">
+
+    <div class="row">
+        <div class="col-xs-12 col-lg-6 order-lg-2">
+            <div class="row">
+                <div class="col-lg col-md-3"></div>
+                <div class="col-lg-8 col-md-6 shadow"
+                style=" height : auto; padding: 30px 10px 40px 10px; border-radius : 20px; background-color: white; color : black">
+                <div style="text-align : center; margin-bottom: 30px">
+                    <h1 style="font-family: 'Rajdhani', sans-serif;">Join our family</h1>
+                </div>
+                <div style="text-align : center">
+
+                    <input oninput="FormValidation()" class="shadow"
+                    type="text" id="firstname"
+                    style="width : 90%; border-radius : 40px; margin-bottom: 10px; text-align: center; padding: 10px; border: none; font-family: 'Roboto', sans-serif;"
+                    name="firstname" placeholder="firstname">
+
+                    <input oninput="emailVerify(event)" onfocus="fieldReset(event)" type="email"
+                    class="shadow" id="email"
+                    style="width : 90%; border-radius : 40px; margin-bottom : 10px; text-align: center; padding : 10px; border: none; font-family: 'Roboto', sans-serif;"
+                    name="email" placeholder="Email">
+
+                    <input oninput="verifyPhoneNumber(event)" onfocus="fieldReset(event)" type="number"
+                    class="shadow" id="phoneNumber"
+                    style="width : 90%; border-radius : 40px; margin-bottom : 20px; text-align: center; padding : 10px; border: none; font-family: 'Roboto', sans-serif;"
+                    name="phoneNumber" placeholder="Phone Number">
+
+                    <div style="text-align : center">
+                        <button id="saveDataBtn" class="shadow" onclick="validation()"
+                        style="width : 90%; border-radius : 40px; padding: 10px; background-color: rgb(21, 123, 254); color: white">
+                        Submit
+                    </button>
+                </div>
+				<script>
+				function FormValidation(){
+    var val=document.getElementById('firstname').value;
+    if(val	== ""){
+        alert('Please Enter First Name');
+        document.getElementById('firstname').style.borderColor = "red";}}
+				</script>
+				
+
+                <p style="margin-top : 20px; color : grey; font-family: 'Roboto', sans-serif;">And don't
+                worry, we hate spam too!</p>
+
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3"></div>
+    </div>
+</div>
+
+<div class="col-xs-12 col-lg-6 order-lg-1" style="transform: translateY(-50%); margin-top : 200px">
+    <p style="text-align : center; ">
+        Want to know more ?</br>
+    </p>
+    <p style="text-align : center; ">
+        Find us here : <a href="https://www.legalmind.tech "
+        style="text-decoration:none; color:white; "></br></br>Samarth Nayyar +918360407845</a>
+    </p>
+    <a style="text-decoration : none; color : white" href="mailto:contact@findmind.in">
+        <p style="text-align : center; ">Nirmit Jatana +918360407845</p>
+        <div class="icons " style="text-align: center; font-size: 36px;">
+            <a href="https://www.facebook.com/lfindmind.legal/" target="_blank "><i
+                class="fab fa-facebook" style="color: white;"></i></a>
+                <a href="https://www.twitter.com/teamlegalmind/" target="_blank "><i class="fab fa-twitter"
+                 style="color: white;"></i></a>
+                 <a href="https://www.instagram.com/teamlegalmind/" target="_blank "><i
+                    class="fab fa-instagram" style="color: white;"></i></a>
+                    <a href="https://medium.com/team-legalmind" target="_blank "><i class="fab fa-medium"
+                        style="color: white;"></i></a>
+                        <a href="https://www.linkedin.com/company/legalmind/" target="_blank "><i
+                            class="fab fa-linkedin" style="color: white;"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- Copyright -->
+
+            <div class="container-fluid" style="background-color : #3486fa;">
+                <div class="row" style="padding-top: 40px; font-family: 'Roboto', sans-serif;color:white">
+                    <div class="col-lg-12">
+                        <p style="text-align: center">
+                            <i class="far fa-copyright" style="padding-top : 4px; "></i><span
+                            style="padding-left : 5px; font-size: 0.8rem">NIRMIT JATANA </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136301182-1"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+
+                function gtag() {
+                    dataLayer.push(arguments);
+                }
+                gtag('js', new Date());
+
+                gtag('config', 'UA-136301182-1');
+            </script>
+
+
+            <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-app.js"></script>
+            <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-firestore.js"></script>
+            <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyATkypVaFeJH7rhv020nCG272bYyFLwLRo",
+            authDomain: "legalmind-002.firebaseapp.com",
+            databaseURL: "https://legalmind-002.firebaseio.com",
+            projectId: "legalmind-002",
+            storageBucket: "legalmind-002.appspot.com",
+            messagingSenderId: "19238161094"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            let clicked = true;
+            var scroll_pos = 0;
+
+            $(document).scroll(function () {
+                scroll_pos = $(this).scrollTop();
+                if (scroll_pos > 100) {
+                  $("nav").css('background-color', 'white');
+                  $("nav").css('padding', '0 20px 0 0');
+                  $("#legalMind").css('background-color', 'rgba(40,53,147,1)')
+              } else {
+                  if ($("#drop").is(":visible")) {
+                    $("nav").css('background-color', 'white');
+                    $("nav").css('padding', '20px 20px 10px 0');
+                    $("#legalMind").css('background-color', '#1d4fb2')
+                } else {
+                    $("nav").css('background-color', 'transparent');
+                    $("nav").css('padding', '20px 20px 10px 0');
+                    $("#legalMind").css('background-color', '#1d4fb2')
+                }
+            }
+        });
+            $(".navbar-toggler").click(() => {
+                if (clicked) {
+                  $("nav").css('background-color', 'white');
+                  clicked = false;
+              } else {
+                if ($(document).scrollTop() > 100) {
+                  $("nav").css('background-color', 'white');
+              } else {
+                $("nav").css('background-color', 'transparent');
+            }
+            clicked = true;
+        }
+    })
+		
+        });
+
+		
+    </script>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5dc8462e43be710e1d1c9ee1/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->  
+
+</body>
+
+</html>
